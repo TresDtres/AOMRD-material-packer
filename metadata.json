@@ -1,0 +1,5 @@
+{
+  "name": "AOMRD Texture Packer",
+  "description": "A professional PBR texture converter for Unreal Engine 5 and inZOI. Pack Ambient Occlusion, Metallic, Roughness, and Displacement into a single RGBA texture (AOMRD format) with AI-assisted PBR parameter estimation.",
+  "requestFramePermissions": []
+}
