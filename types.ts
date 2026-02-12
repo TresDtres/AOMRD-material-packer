@@ -24,6 +24,13 @@ export interface PBRAnalysisResult {
   hasAlpha?: boolean;
 }
 
+export interface GenerationParams {
+  prompt: string;
+  mode: 'pattern' | 'style';
+  category: 'fabric' | 'wood' | 'embroidery' | 'tattoo' | 'drawing' | 'clothing';
+  itemType?: string; // Para el modo estilo: 'sweater', 'skirt', etc.
+}
+
 export interface AOMRDConfig {
   width: number;
   height: number;
